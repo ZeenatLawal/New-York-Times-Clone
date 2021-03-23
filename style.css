@@ -172,3 +172,31 @@ aside p {
   text-decoration: underline;
   color: gray;
 }
+
+.flex-popular {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px; 
+}
+
+.more-line {
+  border-top: 1px solid black;
+  width: 75%;
+}
+
+.more p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.more img {
+  width: 100%;
+}
+
+.grid-more {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 1fr 0.5fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
