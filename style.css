@@ -44,7 +44,7 @@
 }
 
 .line-top {
-  border-top: 1px solid lightgray;
+  border-top: 1px solid black;
 }
 
 .main {
@@ -199,4 +199,20 @@ aside p {
   grid-template-rows: 1fr 0.5fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
+}
+
+.flex-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.bottom-nav p {
+  font-size: 14px;
 }
