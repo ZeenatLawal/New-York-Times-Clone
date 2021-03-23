@@ -218,10 +218,35 @@ aside p {
   font-size: 14px;
 }
 
+footer {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  margin:auto;
+  border-top: 3px double lightgray;
+  width: 80%;
+}
+
+.footer-logo p {
+  font-size: 12px;
+}
+
+.footer-logo img {
+  width: 50%;
+  margin-top: 20px;
+}
+
 .footer-header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 0;
+  width: 80%;
+  margin: auto;
 }
 
 #copyright {
