@@ -5,7 +5,7 @@
 > Project 1: Positioning and floating elements
 Created a New York Times article page clone following the original project specifications from https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/nyt-page.png)
 
 Project requirements included using semantic HTML, aside tag for editor's pick section, aligning elements using a combination of the float, flex and grid techniques.
 
@@ -16,7 +16,7 @@ Project requirements included using semantic HTML, aside tag for editor's pick s
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://zeenatlawal.github.io/New-York-Times-Clone/)
 
 ## Authors
 
@@ -24,13 +24,13 @@ Project requirements included using semantic HTML, aside tag for editor's pick s
 
 - GitHub: [@ZeenatLawal](https://github.com/ZeenatLawal)
 - Twitter: [@lawal_zeenat](https://twitter.com/lawal_zeenat)
-- LinkedIn: [zeenat-lawal](www.linkedin.com/in/zeenat-lawal-665872120)
+- LinkedIn: [Zeenat Lawal](https://www.linkedin.com/in/zeenat-lawal-665872120/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ZeenatLawal/New-York-Times-Clone/issues/2).
 
 ## Show your support
 
@@ -44,4 +44,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
