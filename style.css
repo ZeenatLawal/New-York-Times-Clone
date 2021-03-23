@@ -8,17 +8,22 @@
 
 .flex {
   display: flex;
+}
+
+.flex-center {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
 
-.header {
+.position {
   position: fixed;
-  top: 0;
   background-color: white;
   width: 100%;
-  overflow: hidden;
+}
+
+.header {
+  top: 0;
   padding: 5px;
   margin: 0 auto;
   justify-content: space-around;
@@ -50,7 +55,6 @@
 .main {
   margin: auto;
   width: 50%;
-  overflow: hidden;
 }
 
 p {
@@ -103,11 +107,6 @@ aside p {
   margin-bottom: 10px;
 }
 
-.main-big {
-  margin: auto;
-  width: 50%;
-}
-
 .inflation {
   width: 75%;
   margin: auto;
@@ -126,7 +125,6 @@ aside p {
 
 .text {
   color: gray;
-  margin: 2px;
 }
 
 .grid {
@@ -146,7 +144,6 @@ aside p {
 }
 
 .comment-flex {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -158,8 +155,6 @@ aside p {
 }
 
 .comment-icons {
-  display: flex;
-  justify-content: space-between;
   gap: 15px;
   margin: 30px;
 }
@@ -175,8 +170,6 @@ aside p {
 }
 
 .flex-popular {
-  display: flex;
-  justify-content: space-between;
   gap: 25px;
 }
 
@@ -203,15 +196,11 @@ aside p {
 }
 
 .flex-bottom {
-  display: flex;
   justify-content: space-around;
 }
 
 .bottom-nav {
-  position: fixed;
   bottom: 0;
-  background-color: white;
-  width: 100%;
 }
 
 .bottom-nav p {
@@ -224,11 +213,8 @@ footer {
 }
 
 .footer-logo {
-  display: flex;
-  justify-content: space-between;
-  gap: 0;
-  margin: auto;
   border-top: 3px double lightgray;
+  margin: auto;
   width: 80%;
 }
 
@@ -243,15 +229,11 @@ footer {
 
 .footer-header {
   display: flex;
-  justify-content: space-between;
-  gap: 0;
   width: 80%;
   margin: auto;
 }
 
 #copyright {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   margin-bottom: 80px;
   padding: 10px 30px;
