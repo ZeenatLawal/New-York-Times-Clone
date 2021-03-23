@@ -50,6 +50,7 @@
 .main {
   margin: auto;
   width: 50%;
+  overflow: hidden;
 }
 
 p {
@@ -88,17 +89,22 @@ cite {
 }
 
 aside {
-  width: 20%;
+  width: 15%;
   float: right;
   font-style: italic;
 }
 
 aside .img,
 aside p {
-  width: 100px;
+  width: 90px;
   font-size: 12px;
   line-height: normal;
   margin-bottom: 10px;
+}
+
+.main-big {
+  margin: auto;
+  width: 50%;
 }
 
 .inflation {
@@ -130,4 +136,10 @@ aside p {
   justify-self: center;
   column-gap: 20px;
   row-gap: 0;
+}
+
+.img-tele {
+  width: 100%;
+  display: block;
+  margin: auto;
 }
