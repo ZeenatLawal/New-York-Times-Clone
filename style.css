@@ -217,3 +217,19 @@ aside p {
 .bottom-nav p {
   font-size: 14px;
 }
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 10px 30px;
+  font-size: 12px;
+  border-top: 1px solid lightgray;
+}
