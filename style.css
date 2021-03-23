@@ -227,7 +227,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 0;
-  margin:auto;
+  margin: auto;
   border-top: 3px double lightgray;
   width: 80%;
 }
