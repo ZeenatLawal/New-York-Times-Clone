@@ -97,6 +97,7 @@ aside .img,
 aside p {
   width: 100px;
   font-size: 12px;
+  line-height: normal;
   margin-bottom: 10px;
 }
 
@@ -130,4 +131,3 @@ aside p {
   column-gap: 20px;
   row-gap: 0;
 }
-
