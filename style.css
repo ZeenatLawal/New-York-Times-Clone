@@ -53,7 +53,8 @@
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .title h1 {
@@ -98,3 +99,35 @@ aside p {
   font-size: 12px;
   margin-bottom: 10px;
 }
+
+.inflation {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.inflation p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px;
+}
+
+.inflation .img {
+  width: 100%;
+}
+
+.text {
+  color: gray;
+  margin: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  margin-top: 20px;
+  justify-self: center;
+  column-gap: 20px;
+  row-gap: 0;
+}
+
