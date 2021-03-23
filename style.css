@@ -143,3 +143,32 @@ aside p {
   display: block;
   margin: auto;
 }
+
+.comment-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.comment-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 30px;
+}
+
+.order {
+  font-size: 12px;
+  color: gray;
+}
+
+.order a {
+  text-decoration: underline;
+  color: gray;
+}
