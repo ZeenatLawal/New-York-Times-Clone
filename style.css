@@ -3,6 +3,7 @@
   text-decoration: none;
   box-sizing: border-box;
   color: black;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .flex {
@@ -38,8 +39,12 @@
   font-size: 12px;
 }
 
-.line {
+.line-bottom {
   border-bottom: 1px solid lightgray;
+}
+
+.line-top {
+  border-top: 1px solid lightgray;
 }
 
 .main {
@@ -47,11 +52,14 @@
   width: 50%;
 }
 
+p {
+  font-size: 22px;
+}
+
 .title h1{
   margin-top: 100px;
   font-size: 2em;
   width: 100%;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
   padding-bottom: 20px;
@@ -67,4 +75,17 @@
   display: block;
   margin: auto;
 }
+
+figcaption,
+cite {
+  color: gray;
+}
+
+.author {
+  margin: 50px auto;
+  font-size: 14px;
+}
+
+
+
 
