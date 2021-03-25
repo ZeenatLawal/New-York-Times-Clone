@@ -159,10 +159,16 @@ aside p {
   margin: 30px;
 }
 
+.comment-text {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .form {
   display: grid;
-  width: 60%;
-  margin-bottom: 30px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 .form p {
