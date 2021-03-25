@@ -159,6 +159,41 @@ aside p {
   margin: 30px;
 }
 
+.form {
+  display: grid;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.form p {
+  font-size: 18px;
+}
+
+#user-name,
+#user-email {
+  height: 35px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+input[type=radio] {
+  margin-bottom: 10px;
+}
+
+.send {
+  width: 30%;
+  margin: auto;
+}
+
 .order {
   font-size: 12px;
   color: gray;
