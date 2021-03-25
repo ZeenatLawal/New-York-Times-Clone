@@ -192,13 +192,13 @@
       <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p>
       <form action="">
         <label for="user-name">Name</label>
-        <input type="text" name="user-name" id="user-name">
+        <input type="text" name="user-name" id="user-name" maxlength="20" required>
 
         <label for="user-email">Email</label>
-        <input type="email" name="user-email" id="user-email">
+        <input type="email" name="user-email" id="user-email" maxlength="20" required>
 
         <label for="text-field">Comment</label>
-        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comment here…"></textarea>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250" required></textarea>
 
         <p>What is your overall opinion about this article?</p>
         <input type="radio" name="positive" id="positive">
